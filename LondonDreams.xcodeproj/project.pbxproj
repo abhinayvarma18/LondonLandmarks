@@ -1,0 +1,833 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5429B0771F9020FE00E5C586 /* LandmarkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5429B0751F9020FE00E5C586 /* LandmarkTableViewCell.swift */; };
+		5429B0781F9020FE00E5C586 /* LandmarkTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5429B0761F9020FE00E5C586 /* LandmarkTableViewCell.xib */; };
+		54484F741F8E930000F13713 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54484F731F8E930000F13713 /* AppDelegate.swift */; };
+		54484F761F8E930000F13713 /* FirstScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54484F751F8E930000F13713 /* FirstScreenViewController.swift */; };
+		54484F791F8E930000F13713 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54484F771F8E930000F13713 /* Main.storyboard */; };
+		54484F7C1F8E930000F13713 /* LondonDreams.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 54484F7A1F8E930000F13713 /* LondonDreams.xcdatamodeld */; };
+		54484F7E1F8E930000F13713 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54484F7D1F8E930000F13713 /* Assets.xcassets */; };
+		54484F811F8E930000F13713 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54484F7F1F8E930000F13713 /* LaunchScreen.storyboard */; };
+		54484F8C1F8E930000F13713 /* LondonDreamsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54484F8B1F8E930000F13713 /* LondonDreamsTests.swift */; };
+		54484F971F8E930000F13713 /* LondonDreamsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54484F961F8E930000F13713 /* LondonDreamsUITests.swift */; };
+		54484FA51F8E95E100F13713 /* SecondScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54484FA41F8E95E100F13713 /* SecondScreenViewController.swift */; };
+		54484FA91F8E9E7B00F13713 /* LandMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54484FA81F8E9E7B00F13713 /* LandMark.swift */; };
+		54484FAC1F8EA5B200F13713 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54484FAB1F8EA5B200F13713 /* NetworkManager.swift */; };
+		54484FAE1F8EB25500F13713 /* UploadLandmarkDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54484FAD1F8EB25500F13713 /* UploadLandmarkDataViewController.swift */; };
+		54484FB01F8EB4D700F13713 /* EZLoadingActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54484FAF1F8EB4D700F13713 /* EZLoadingActivity.swift */; };
+		54484FB21F8EC0C900F13713 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54484FB11F8EC0C900F13713 /* GoogleService-Info.plist */; };
+		54BF39711F921ACD0041ADA8 /* LandMarkDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BF39701F921ACD0041ADA8 /* LandMarkDescriptionViewController.swift */; };
+		54BF39731F9557530041ADA8 /* LocateMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BF39721F9557530041ADA8 /* LocateMeViewController.swift */; };
+		54BF39761F96B3BB0041ADA8 /* GoogleMapSuggestionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BF39741F96B3BB0041ADA8 /* GoogleMapSuggestionTableViewCell.swift */; };
+		54BF39771F96B3BB0041ADA8 /* GoogleMapSuggestionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54BF39751F96B3BB0041ADA8 /* GoogleMapSuggestionTableViewCell.xib */; };
+		54BF39791F96CCE10041ADA8 /* GetDirectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BF39781F96CCE10041ADA8 /* GetDirectionsViewController.swift */; };
+		5C59E13895FF9D0D02041B52 /* Pods_LondonDreams.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA54508A9CCE0A74D81D955 /* Pods_LondonDreams.framework */; };
+		9133AB7F2E112AB721D59C15 /* Pods_LondonDreamsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 544C4EF15F6DFA15E1FE3A69 /* Pods_LondonDreamsUITests.framework */; };
+		D487ECF5D99C3A35ECB159C6 /* Pods_LondonDreamsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD66D7114D9C2B2D90ADA45E /* Pods_LondonDreamsTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54484F881F8E930000F13713 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54484F681F8E930000F13713 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54484F6F1F8E930000F13713;
+			remoteInfo = LondonDreams;
+		};
+		54484F931F8E930000F13713 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54484F681F8E930000F13713 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54484F6F1F8E930000F13713;
+			remoteInfo = LondonDreams;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2CC82129C5D41F45BF64B807 /* Pods-LondonDreamsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LondonDreamsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LondonDreamsTests/Pods-LondonDreamsTests.release.xcconfig"; sourceTree = "<group>"; };
+		2FAEBAFB504B7304F6A101EA /* Pods-LondonDreams.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LondonDreams.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LondonDreams/Pods-LondonDreams.debug.xcconfig"; sourceTree = "<group>"; };
+		3562920C7C745272D5693FAE /* Pods-LondonDreamsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LondonDreamsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LondonDreamsUITests/Pods-LondonDreamsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5429B0751F9020FE00E5C586 /* LandmarkTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandmarkTableViewCell.swift; sourceTree = "<group>"; };
+		5429B0761F9020FE00E5C586 /* LandmarkTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LandmarkTableViewCell.xib; sourceTree = "<group>"; };
+		54484F701F8E930000F13713 /* LondonDreams.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LondonDreams.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54484F731F8E930000F13713 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		54484F751F8E930000F13713 /* FirstScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreenViewController.swift; sourceTree = "<group>"; };
+		54484F781F8E930000F13713 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54484F7B1F8E930000F13713 /* LondonDreams.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LondonDreams.xcdatamodel; sourceTree = "<group>"; };
+		54484F7D1F8E930000F13713 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54484F801F8E930000F13713 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54484F821F8E930000F13713 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54484F871F8E930000F13713 /* LondonDreamsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LondonDreamsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54484F8B1F8E930000F13713 /* LondonDreamsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LondonDreamsTests.swift; sourceTree = "<group>"; };
+		54484F8D1F8E930000F13713 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54484F921F8E930000F13713 /* LondonDreamsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LondonDreamsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54484F961F8E930000F13713 /* LondonDreamsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LondonDreamsUITests.swift; sourceTree = "<group>"; };
+		54484F981F8E930000F13713 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54484FA41F8E95E100F13713 /* SecondScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondScreenViewController.swift; sourceTree = "<group>"; };
+		54484FA81F8E9E7B00F13713 /* LandMark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandMark.swift; sourceTree = "<group>"; };
+		54484FAB1F8EA5B200F13713 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		54484FAD1F8EB25500F13713 /* UploadLandmarkDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadLandmarkDataViewController.swift; sourceTree = "<group>"; };
+		54484FAF1F8EB4D700F13713 /* EZLoadingActivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EZLoadingActivity.swift; sourceTree = "<group>"; };
+		54484FB11F8EC0C900F13713 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		544C4EF15F6DFA15E1FE3A69 /* Pods_LondonDreamsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LondonDreamsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54BF39701F921ACD0041ADA8 /* LandMarkDescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandMarkDescriptionViewController.swift; sourceTree = "<group>"; };
+		54BF39721F9557530041ADA8 /* LocateMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocateMeViewController.swift; sourceTree = "<group>"; };
+		54BF39741F96B3BB0041ADA8 /* GoogleMapSuggestionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleMapSuggestionTableViewCell.swift; sourceTree = "<group>"; };
+		54BF39751F96B3BB0041ADA8 /* GoogleMapSuggestionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GoogleMapSuggestionTableViewCell.xib; sourceTree = "<group>"; };
+		54BF39781F96CCE10041ADA8 /* GetDirectionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetDirectionsViewController.swift; sourceTree = "<group>"; };
+		6C309C2E3A4378762C7E0CD0 /* Pods-LondonDreams.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LondonDreams.release.xcconfig"; path = "Pods/Target Support Files/Pods-LondonDreams/Pods-LondonDreams.release.xcconfig"; sourceTree = "<group>"; };
+		7D0BFC826E9FC0E850F58AC6 /* Pods-LondonDreamsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LondonDreamsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LondonDreamsUITests/Pods-LondonDreamsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9D6CEC312C1116079C41E0D4 /* Pods-LondonDreamsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LondonDreamsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LondonDreamsTests/Pods-LondonDreamsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AD66D7114D9C2B2D90ADA45E /* Pods_LondonDreamsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LondonDreamsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDA54508A9CCE0A74D81D955 /* Pods_LondonDreams.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LondonDreams.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54484F6D1F8E930000F13713 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C59E13895FF9D0D02041B52 /* Pods_LondonDreams.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54484F841F8E930000F13713 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D487ECF5D99C3A35ECB159C6 /* Pods_LondonDreamsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54484F8F1F8E930000F13713 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9133AB7F2E112AB721D59C15 /* Pods_LondonDreamsUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5429B0731F9020A900E5C586 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				54484FB11F8EC0C900F13713 /* GoogleService-Info.plist */,
+				54484FAF1F8EB4D700F13713 /* EZLoadingActivity.swift */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5429B0741F9020CB00E5C586 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5429B0751F9020FE00E5C586 /* LandmarkTableViewCell.swift */,
+				5429B0761F9020FE00E5C586 /* LandmarkTableViewCell.xib */,
+				54BF39741F96B3BB0041ADA8 /* GoogleMapSuggestionTableViewCell.swift */,
+				54BF39751F96B3BB0041ADA8 /* GoogleMapSuggestionTableViewCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		54484F671F8E930000F13713 = {
+			isa = PBXGroup;
+			children = (
+				54484F721F8E930000F13713 /* LondonDreams */,
+				54484F8A1F8E930000F13713 /* LondonDreamsTests */,
+				54484F951F8E930000F13713 /* LondonDreamsUITests */,
+				54484F711F8E930000F13713 /* Products */,
+				A0FAFD6144C682276B87545A /* Pods */,
+				62E4600DC703BD384C46B56B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		54484F711F8E930000F13713 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54484F701F8E930000F13713 /* LondonDreams.app */,
+				54484F871F8E930000F13713 /* LondonDreamsTests.xctest */,
+				54484F921F8E930000F13713 /* LondonDreamsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54484F721F8E930000F13713 /* LondonDreams */ = {
+			isa = PBXGroup;
+			children = (
+				5429B0741F9020CB00E5C586 /* Views */,
+				5429B0731F9020A900E5C586 /* Resources */,
+				54484FAA1F8EA58A00F13713 /* NetworkLayer */,
+				54484FA71F8E966900F13713 /* Models */,
+				54484F731F8E930000F13713 /* AppDelegate.swift */,
+				54484FA61F8E965100F13713 /* Controllers */,
+				54484F771F8E930000F13713 /* Main.storyboard */,
+				54484F7D1F8E930000F13713 /* Assets.xcassets */,
+				54484F7F1F8E930000F13713 /* LaunchScreen.storyboard */,
+				54484F821F8E930000F13713 /* Info.plist */,
+				54484F7A1F8E930000F13713 /* LondonDreams.xcdatamodeld */,
+			);
+			path = LondonDreams;
+			sourceTree = "<group>";
+		};
+		54484F8A1F8E930000F13713 /* LondonDreamsTests */ = {
+			isa = PBXGroup;
+			children = (
+				54484F8B1F8E930000F13713 /* LondonDreamsTests.swift */,
+				54484F8D1F8E930000F13713 /* Info.plist */,
+			);
+			path = LondonDreamsTests;
+			sourceTree = "<group>";
+		};
+		54484F951F8E930000F13713 /* LondonDreamsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				54484F961F8E930000F13713 /* LondonDreamsUITests.swift */,
+				54484F981F8E930000F13713 /* Info.plist */,
+			);
+			path = LondonDreamsUITests;
+			sourceTree = "<group>";
+		};
+		54484FA61F8E965100F13713 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				54484F751F8E930000F13713 /* FirstScreenViewController.swift */,
+				54484FA41F8E95E100F13713 /* SecondScreenViewController.swift */,
+				54484FAD1F8EB25500F13713 /* UploadLandmarkDataViewController.swift */,
+				54BF39701F921ACD0041ADA8 /* LandMarkDescriptionViewController.swift */,
+				54BF39721F9557530041ADA8 /* LocateMeViewController.swift */,
+				54BF39781F96CCE10041ADA8 /* GetDirectionsViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		54484FA71F8E966900F13713 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				54484FA81F8E9E7B00F13713 /* LandMark.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		54484FAA1F8EA58A00F13713 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				54484FAB1F8EA5B200F13713 /* NetworkManager.swift */,
+			);
+			name = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		62E4600DC703BD384C46B56B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDA54508A9CCE0A74D81D955 /* Pods_LondonDreams.framework */,
+				AD66D7114D9C2B2D90ADA45E /* Pods_LondonDreamsTests.framework */,
+				544C4EF15F6DFA15E1FE3A69 /* Pods_LondonDreamsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0FAFD6144C682276B87545A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2FAEBAFB504B7304F6A101EA /* Pods-LondonDreams.debug.xcconfig */,
+				6C309C2E3A4378762C7E0CD0 /* Pods-LondonDreams.release.xcconfig */,
+				9D6CEC312C1116079C41E0D4 /* Pods-LondonDreamsTests.debug.xcconfig */,
+				2CC82129C5D41F45BF64B807 /* Pods-LondonDreamsTests.release.xcconfig */,
+				3562920C7C745272D5693FAE /* Pods-LondonDreamsUITests.debug.xcconfig */,
+				7D0BFC826E9FC0E850F58AC6 /* Pods-LondonDreamsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54484F6F1F8E930000F13713 /* LondonDreams */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54484F9B1F8E930000F13713 /* Build configuration list for PBXNativeTarget "LondonDreams" */;
+			buildPhases = (
+				519315E21425486350DFADFA /* [CP] Check Pods Manifest.lock */,
+				54484F6C1F8E930000F13713 /* Sources */,
+				54484F6D1F8E930000F13713 /* Frameworks */,
+				54484F6E1F8E930000F13713 /* Resources */,
+				CFCB58D176B18F5C17C8024D /* [CP] Embed Pods Frameworks */,
+				14921E7081AA4F2E3A436D71 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LondonDreams;
+			productName = LondonDreams;
+			productReference = 54484F701F8E930000F13713 /* LondonDreams.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54484F861F8E930000F13713 /* LondonDreamsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54484F9E1F8E930000F13713 /* Build configuration list for PBXNativeTarget "LondonDreamsTests" */;
+			buildPhases = (
+				7B4AFA6B4B2C138080FF4B79 /* [CP] Check Pods Manifest.lock */,
+				54484F831F8E930000F13713 /* Sources */,
+				54484F841F8E930000F13713 /* Frameworks */,
+				54484F851F8E930000F13713 /* Resources */,
+				9B0E0C865A6420A24850336F /* [CP] Embed Pods Frameworks */,
+				4EAC06E8BC0ECB9F12E0E77C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54484F891F8E930000F13713 /* PBXTargetDependency */,
+			);
+			name = LondonDreamsTests;
+			productName = LondonDreamsTests;
+			productReference = 54484F871F8E930000F13713 /* LondonDreamsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		54484F911F8E930000F13713 /* LondonDreamsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54484FA11F8E930000F13713 /* Build configuration list for PBXNativeTarget "LondonDreamsUITests" */;
+			buildPhases = (
+				65654A7798513722D34C5CC9 /* [CP] Check Pods Manifest.lock */,
+				54484F8E1F8E930000F13713 /* Sources */,
+				54484F8F1F8E930000F13713 /* Frameworks */,
+				54484F901F8E930000F13713 /* Resources */,
+				4D4035E868E22B29D365C6D8 /* [CP] Embed Pods Frameworks */,
+				C49AED8FD40F97044F5F66BC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54484F941F8E930000F13713 /* PBXTargetDependency */,
+			);
+			name = LondonDreamsUITests;
+			productName = LondonDreamsUITests;
+			productReference = 54484F921F8E930000F13713 /* LondonDreamsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54484F681F8E930000F13713 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Abhinay Varma";
+				TargetAttributes = {
+					54484F6F1F8E930000F13713 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					54484F861F8E930000F13713 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 54484F6F1F8E930000F13713;
+					};
+					54484F911F8E930000F13713 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 54484F6F1F8E930000F13713;
+					};
+				};
+			};
+			buildConfigurationList = 54484F6B1F8E930000F13713 /* Build configuration list for PBXProject "LondonDreams" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54484F671F8E930000F13713;
+			productRefGroup = 54484F711F8E930000F13713 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54484F6F1F8E930000F13713 /* LondonDreams */,
+				54484F861F8E930000F13713 /* LondonDreamsTests */,
+				54484F911F8E930000F13713 /* LondonDreamsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54484F6E1F8E930000F13713 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54484F811F8E930000F13713 /* LaunchScreen.storyboard in Resources */,
+				54484FB21F8EC0C900F13713 /* GoogleService-Info.plist in Resources */,
+				5429B0781F9020FE00E5C586 /* LandmarkTableViewCell.xib in Resources */,
+				54484F7E1F8E930000F13713 /* Assets.xcassets in Resources */,
+				54484F791F8E930000F13713 /* Main.storyboard in Resources */,
+				54BF39771F96B3BB0041ADA8 /* GoogleMapSuggestionTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54484F851F8E930000F13713 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54484F901F8E930000F13713 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14921E7081AA4F2E3A436D71 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LondonDreams/Pods-LondonDreams-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D4035E868E22B29D365C6D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LondonDreamsUITests/Pods-LondonDreamsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EAC06E8BC0ECB9F12E0E77C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LondonDreamsTests/Pods-LondonDreamsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		519315E21425486350DFADFA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		65654A7798513722D34C5CC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7B4AFA6B4B2C138080FF4B79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9B0E0C865A6420A24850336F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LondonDreamsTests/Pods-LondonDreamsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C49AED8FD40F97044F5F66BC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LondonDreamsUITests/Pods-LondonDreamsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFCB58D176B18F5C17C8024D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LondonDreams/Pods-LondonDreams-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54484F6C1F8E930000F13713 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54484FAC1F8EA5B200F13713 /* NetworkManager.swift in Sources */,
+				5429B0771F9020FE00E5C586 /* LandmarkTableViewCell.swift in Sources */,
+				54484FA51F8E95E100F13713 /* SecondScreenViewController.swift in Sources */,
+				54484FA91F8E9E7B00F13713 /* LandMark.swift in Sources */,
+				54484F761F8E930000F13713 /* FirstScreenViewController.swift in Sources */,
+				54BF39711F921ACD0041ADA8 /* LandMarkDescriptionViewController.swift in Sources */,
+				54484FB01F8EB4D700F13713 /* EZLoadingActivity.swift in Sources */,
+				54484F7C1F8E930000F13713 /* LondonDreams.xcdatamodeld in Sources */,
+				54BF39791F96CCE10041ADA8 /* GetDirectionsViewController.swift in Sources */,
+				54484FAE1F8EB25500F13713 /* UploadLandmarkDataViewController.swift in Sources */,
+				54484F741F8E930000F13713 /* AppDelegate.swift in Sources */,
+				54BF39731F9557530041ADA8 /* LocateMeViewController.swift in Sources */,
+				54BF39761F96B3BB0041ADA8 /* GoogleMapSuggestionTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54484F831F8E930000F13713 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54484F8C1F8E930000F13713 /* LondonDreamsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54484F8E1F8E930000F13713 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54484F971F8E930000F13713 /* LondonDreamsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54484F891F8E930000F13713 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54484F6F1F8E930000F13713 /* LondonDreams */;
+			targetProxy = 54484F881F8E930000F13713 /* PBXContainerItemProxy */;
+		};
+		54484F941F8E930000F13713 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54484F6F1F8E930000F13713 /* LondonDreams */;
+			targetProxy = 54484F931F8E930000F13713 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54484F771F8E930000F13713 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54484F781F8E930000F13713 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		54484F7F1F8E930000F13713 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54484F801F8E930000F13713 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54484F991F8E930000F13713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54484F9A1F8E930000F13713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54484F9C1F8E930000F13713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FAEBAFB504B7304F6A101EA /* Pods-LondonDreams.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LondonDreams/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.development.sample.LondonDreams;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		54484F9D1F8E930000F13713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C309C2E3A4378762C7E0CD0 /* Pods-LondonDreams.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LondonDreams/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.development.sample.LondonDreams;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		54484F9F1F8E930000F13713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D6CEC312C1116079C41E0D4 /* Pods-LondonDreamsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LondonDreamsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.development.sample.LondonDreamsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LondonDreams.app/LondonDreams";
+			};
+			name = Debug;
+		};
+		54484FA01F8E930000F13713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CC82129C5D41F45BF64B807 /* Pods-LondonDreamsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LondonDreamsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.development.sample.LondonDreamsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LondonDreams.app/LondonDreams";
+			};
+			name = Release;
+		};
+		54484FA21F8E930000F13713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3562920C7C745272D5693FAE /* Pods-LondonDreamsUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = LondonDreamsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.development.sample.LondonDreamsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LondonDreams;
+			};
+			name = Debug;
+		};
+		54484FA31F8E930000F13713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D0BFC826E9FC0E850F58AC6 /* Pods-LondonDreamsUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = LondonDreamsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.development.sample.LondonDreamsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LondonDreams;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54484F6B1F8E930000F13713 /* Build configuration list for PBXProject "LondonDreams" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54484F991F8E930000F13713 /* Debug */,
+				54484F9A1F8E930000F13713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54484F9B1F8E930000F13713 /* Build configuration list for PBXNativeTarget "LondonDreams" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54484F9C1F8E930000F13713 /* Debug */,
+				54484F9D1F8E930000F13713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54484F9E1F8E930000F13713 /* Build configuration list for PBXNativeTarget "LondonDreamsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54484F9F1F8E930000F13713 /* Debug */,
+				54484FA01F8E930000F13713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54484FA11F8E930000F13713 /* Build configuration list for PBXNativeTarget "LondonDreamsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54484FA21F8E930000F13713 /* Debug */,
+				54484FA31F8E930000F13713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		54484F7A1F8E930000F13713 /* LondonDreams.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				54484F7B1F8E930000F13713 /* LondonDreams.xcdatamodel */,
+			);
+			currentVersion = 54484F7B1F8E930000F13713 /* LondonDreams.xcdatamodel */;
+			path = LondonDreams.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 54484F681F8E930000F13713 /* Project object */;
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>32150741112-30n0nhn1ias0mbp850d0br79queh8c66.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.32150741112-30n0nhn1ias0mbp850d0br79queh8c66</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDdry4D3ktUVTGekp7aEZ9nGSpPcxsCQ5Y</string>
+	<key>GCM_SENDER_ID</key>
+	<string>32150741112</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.development.sample.LondonDreams</string>
+	<key>PROJECT_ID</key>
+	<string>londondreams-4984e</string>
+	<key>STORAGE_BUCKET</key>
+	<string>londondreams-4984e.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:32150741112:ios:c6acaff89def4bbd</string>
+	<key>DATABASE_URL</key>
+	<string>https://londondreams-4984e.firebaseio.com</string>
+</dict>
+</plist>
